@@ -368,7 +368,14 @@ sudo chmod 777 ./text.txt
 sudo chmod -R 777 ./test
 ```
 
-或者使用 `r|w|x`三个快捷操作, 但是这个只能对拥有者添加权限, 用户组和other不会添加
+或者使用 `r|w|x`三个快捷操作,  通过`u|g|o|a` 四个前缀来指定权限的操作
+
+- u:  user, 代表文件的拥有者 如 `chmod u+r file, chmod u-r file`
+- g:  group, 代表用户组  如 `chmod g+r file, chmod g-r file`
+- o:  others, 代表其他人  如 `chmod o+r file, chmod o-r file`
+- a:  all, 代表所有  如 `chmod a+r file, chmod a-r file`
+
+如果不加前缀, 默认等于 a,  即 `chmod a+x = chmod +x`
 
 ```bash
 # 添加可读权限
