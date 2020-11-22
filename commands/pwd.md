@@ -2,9 +2,11 @@
 
 ### 功能
 
+`pathname of the current working directory`
+
 显示出当前/活动目录的名称
 
-另外肯定有人好奇pwd的英文名称是什么,  其实是 `pathname of the current working directory`
+另外肯定有人好奇pwd的英文名称是什么,  其实是 `Print  Working Directory`
 
 
 
@@ -53,4 +55,13 @@ root@VM_0_7_centos /sbin # pwd -P
 ```bash
 echo $PWD
 ```
+
+同理, 当修改`PWD`的值也,  也会自动的切换到对应的目录中, 如
+
+```bash
+PWD='/home'
+# 这个时候就会自动的切换到 /home目录下, 不用cd也能切换目录
+```
+
+
 
