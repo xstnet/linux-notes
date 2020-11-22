@@ -6,7 +6,12 @@
 	"pluginsConfig":{
         "hide-element": {
             "elements": [".gitbook-link"]
-        }
+        },
+		"prism": {
+			"css": [
+				"prismjs/themes/prism-tomorrow.css"
+			]
+		}
     },
-	"plugins": ["highlight", "search", "-sharing", "livereload", "chapter-fold", "splitter", "back-to-top-button", "hide-element"]
+	"plugins": ["-highlight", "search", "-sharing", "livereload", "chapter-fold", "splitter", "back-to-top-button", "hide-element", "prism"]
 }
