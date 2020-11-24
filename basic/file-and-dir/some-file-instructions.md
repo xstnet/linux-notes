@@ -60,3 +60,9 @@ root:x:0:0:root:/root:/bin/bash
 
 更多信息可查看: http://c.biancheng.net/view/840.html
 
+
+
+### /etc/shells
+
+记录了当前系统可用的`shell`
+
