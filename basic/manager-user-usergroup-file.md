@@ -96,6 +96,11 @@ sudo groupdel mygroupnew
 sudo useradd -g mygroupnew -m myuser
 ```
 
+> 如果是在 `ubuntu`中, 创建的用户的默认shell 其实是 `/bin/sh`, 而不是 `/bin/bash`, 所以有许多`bash`内置命令是不能使用的, 如`history`, `source`等, 因此在`ubuntu`中创建用户时时好加上 -s 参数, 如: `-s /bin/bash`
+> 若是已经创建之后想要修改也很简单, 在新用户下使用`chsh`命令, 然后交互式输入新的`shell`路径即可, 如 `/bin/bash`
+> 或者是使用 `root` 权限 执行命令 `usermod -s /bin/bash 账户名称` , 或者直接修改 `/etc/passwd`
+> 以上修改用户的`shell` 都需要重新登录才有效果, 直接用 `su` 命令重新登录即可刷新
+
 
 
 ### 设置用户密码
