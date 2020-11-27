@@ -66,3 +66,5 @@ root:x:0:0:root:/root:/bin/bash
 
 记录了当前系统可用的`shell`
 
+可以使用 `chsh`命令来切换`shell`, 不过切换完要重新登录才能生效
+
