@@ -21,4 +21,5 @@
 * [常用命令](commands/readme.md)
 	* [pwd](commands/pwd.md)
 	* [查看文件内容](commands/show-file-content/readme.md)
+	* [find](commands/find.md)
 
