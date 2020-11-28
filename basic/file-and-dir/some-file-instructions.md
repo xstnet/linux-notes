@@ -68,3 +68,22 @@ root:x:0:0:root:/root:/bin/bash
 
 可以使用 `chsh`命令来切换`shell`, 不过切换完要重新登录才能生效
 
+
+
+### /etc/man_db.conf
+
+指定了`man page`中的路径
+
+
+
+### /etc/issue与 /etc/issue.net
+
+bash的登录欢迎信息, 对root用户不起作用
+
+issue.net: 使用`telnet`登录时的欢迎信息
+
+
+
+### /etc/motd
+
+bash的登录欢迎信息, 对所有用户起作用

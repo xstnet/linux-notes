@@ -52,11 +52,21 @@ ls -l /etc/sudoers
 
 
 
+**免密码使用sudo**
+
+如果想免密码, 那么只要把最后一个`ALL`变成 `NOPASSWD:ALL` 即可, 也就是:
+
+`xstne	ALL=(ALL)	NOPASSWD:ALL`
+
+
+
 最后记得取消该文件的可写权限
 
 ```bash
 chmod -w /etc/sudoers
 ```
+
+
 
 
 

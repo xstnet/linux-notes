@@ -7,6 +7,8 @@
 * [基础篇](basic/readme.md)
 	* [下载centos](basic/download.md)
 	* [命令行的快捷键](basic/command-line-key.md)
+	* [用户变量与环境变量](basic/user_var_and_env_var.md)
+	* [执行历史命令(!!, !n, !command的用法)](basic/run-history.md)
 	* [文件和目录](basic/file-and-dir/readme.md)
 		* [常见目录说明](basic/file-and-dir/directory-instructions.md)
 		* [一些文件的作用](basic/file-and-dir/some-file-instructions.md)
