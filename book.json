@@ -5,13 +5,21 @@
 	"language": "zh-hans",
 	"pluginsConfig":{
         "hide-element": {
-            "elements": [".gitbook-link"]
+            "elements": [".gitbook-link", ".logo"]
         },
 		"prism": {
 			"css": [
 				"prismjs/themes/prism-tomorrow.css"
 			]
-		}
+		},
+		"theme-fexa":{
+            "search-placeholder":"输入关键字搜索", 
+            "logo":"", 
+            "favicon": "" 
+        }
     },
-	"plugins": ["-highlight", "search", "-sharing", "livereload", "chapter-fold", "splitter", "back-to-top-button", "hide-element", "prism"]
+	"plugins": ["-highlight", "search", "-sharing", "livereload", "chapter-fold", "splitter", "back-to-top-button", "-hide-element", "prism", "theme-fexa"],
+	"styles": {
+		"website": "skin/default/css/theme.css"
+	}
 }
