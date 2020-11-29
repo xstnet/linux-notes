@@ -1,4 +1,4 @@
-.markdown-section > p > code, .markdown-section blockquote code, .markdown-section ul code, .markdown-section table code {
+.markdown-section > p > code, .markdown-section blockquote code {
     padding: 4px 2px;
     color: #c7254e;
     background-color: #ddd;
