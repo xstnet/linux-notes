@@ -1,9 +1,12 @@
-.markdown-section > p > code, .markdown-section blockquote code {
-    padding: 4px 4px;
+.markdown-section > p > code, .markdown-section blockquote code, .markdown-section ul code, .markdown-section table code {
+    padding: 4px 2px;
     font-size: 90%;
     color: #c7254e;
     background-color: #ddd;
     border-radius: 4px;
+}
+.markdown-section table code {
+	background-color: none;
 }
 
 .markdown-section blockquote p {
