@@ -5,6 +5,8 @@ if [ ! $1 ]; then
 	exit 1
 fi 
 
+cd "$( dirname "$0" )"
+
 # add files
 git add --all
 
