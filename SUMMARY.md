@@ -17,6 +17,7 @@
 		* [文件隐藏属性](basic/file-and-dir/file-hide-attr.md)
 		* [文件特殊属性](basic/file-and-dir/file-special-attr.md)
 		* [查看磁盘与目录配额](basic/file-and-dir/show-disk-dir-capacity.md)
+		* [ls只显示目录的方法](basic/file-and-dir/only-show-dir.md)
 	* [将普通用户添加到sudoers](basic/add-user-to-sudoers.md)
 	* [管理用户/用户组/文件权限](basic/manager-user-usergroup-file.md)
 * [常用命令](commands/readme.md)
